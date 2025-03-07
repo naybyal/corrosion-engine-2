@@ -1,3 +1,12 @@
+from rest_framework import serializers
+from .models import Analysis, TranslationTask
+from .serializers import TranslationTaskSerializer
+
+class TranslationTaskSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = TranslationTask
+        fields = ['id', 'source_code', 'status', 'created_at']
+
 class AnalysisSerializer(serializers.ModelSerializer):
     translation_task = TranslationTaskSerializer(read_only=True)
     
