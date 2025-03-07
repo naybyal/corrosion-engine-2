@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+**/__pycache__/
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Environment variables file
+.env
+
+# Virtual environment
+env/
+venv/
+ENV/
+venv.bak/
+
+# IDE and Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker-related files (if using)
+docker-compose.override.yml
+
+# Celery schedule file
+celerybeat-schedule

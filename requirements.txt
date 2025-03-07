@@ -1,0 +1,8 @@
+django 
+djangorestframework 
+celery 
+redis 
+sentence-transformers 
+networkx 
+tree-sitter
+clang
