@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     # transpiler
-    'transpiler',
+    'corrosion',
 ]
 
 MIDDLEWARE = [

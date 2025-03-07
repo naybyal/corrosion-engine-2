@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import AnalysisDetailAPIView
+from corrosion.views import AnalysisDetailAPIView
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
